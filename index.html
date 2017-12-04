@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Convertidor de unidades</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/funciones.js"></script>
+<form> 
+</head>
+<div align="right">
+<header><h1>COVERTIDOR DE UNIDADES</h1></header>
+<h1 id="gtext"> escribe la cantidades a convertir y seleccione las unidades</h1>
+ </div>
+
+<body bgcolor="gray">
+
+<table border="0">
+  <tr>
+    <td vAlign="center" align="middle" colSpan="8">
+    
+    </td>
+  </tr>
+  <tr id="uni">
+    <td align="middle">M</td>
+    <td align="middle">Inch</td>
+    <td align="middle">Ft</td>
+    <td align="middle">Yd</td>
+    <td align="middle">Mi</td>
+    <td align="middle">Km</td>
+    <td align="middle">Cm</td>
+  </tr>
+  <tr id="rest">
+    <td><input onfocus="clearform(this.form)" size="8" name="val1"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val2"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val3"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val4"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val5"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val6"></td>
+    <td><input onfocus="clearform(this.form)" size="8" name="val7"></td>
+
+    <td><input  onclick="convertform(this.form)" type="button" value="Calcular"></td>
+  </tr>
+</table>
+
+
+<script language="JavaScript">
+
+document.forms[0].count = 7;  
+document.forms[0].rsize = 8;  
+document.forms[0].val1.factor = 1;            
+document.forms[0].val2.factor = 39.37007874;  
+document.forms[0].val3.factor = 3.280839895;  
+document.forms[0].val4.factor = 1.093613298;  
+document.forms[0].val5.factor = 0.00062137119; 
+document.forms[0].val6.factor = 0.00100; 
+document.forms[0].val7.factor = 100; 
+
+</script>
+<div align="center">
+	<input id="hola">
+<input id="hi">
+</div>
+
+</body>
+
+</html>

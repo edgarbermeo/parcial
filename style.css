@@ -1,0 +1,62 @@
+#fon{
+
+padding: 10px;
+margin: 60px;
+background-color:#47565B;
+  height: 80px;
+  width: 1025px;
+
+}
+#fon2{
+	position: fixed;
+	right: -40px;
+padding: 10px;
+margin: 300px;
+background-color:#47565B;
+  height: 80px;
+  width: 1025px;
+}
+
+*{
+ padding: 0;
+ margin: 0;
+}
+
+#ce{
+	margin-top: -230px;
+	padding-top: -20px;
+	margin-left: -13px;
+	padding-left: -50px;
+	color: white;
+
+}
+
+table{
+	padding-top: 40px; 
+
+}
+h1{
+	position: relative;
+	margin-top : 50px;
+	right: -800px;
+}
+#linea{
+	background-color:#86B5BD;
+	padding-left: 50px; 
+	padding-top: 40px;
+	
+}
+#linea td{
+	padding-top: 50px;
+}
+input{
+	padding-top: 60px;
+	background-color: #187270;
+	color: white;
+	padding-left: 42px;
+}
+
+body{
+	background-color:#333333;
+	color: white;
+}
